@@ -70,29 +70,17 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About me
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
-            Inkdrop
+          I&apos;m a third-year computer science student at the Pontificia Universidad Católica Madre y Maestra (PUCMM),
+          committed to deepening my expertise in backend development. Currently, I am focused on mastering golang.
+          This page is designed to share my progress and contributions with the community as I continue my journey toward becoming a full-stack developer.
+          Oh, of course—I use {' '}
+          <Link as={NextLink} href="https://github.com/cristiandelahoz/vim" passHref scroll={false}>
+            Neovim,
           </Link>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <Link
-            as={NextLink}
-            href="https://www.youtube.com/devaslife"
-            passHref
-            target="_blank"
-          >
-            Dev as Life
-          </Link>
-          &quot; has more than 100k subscribers.
+          {' '} by the way. I probably spend more time tweaking configs than actually coding, but hey, that&apos;s just the Neovim way.
         </Paragraph>
         <Box align="center" my={4}>
           <Button
