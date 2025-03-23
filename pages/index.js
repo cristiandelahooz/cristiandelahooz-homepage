@@ -32,7 +32,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Japan!
+        Hello, I&apos;m an computer science student at the Pontificia Universidad Católica Madre y Maestra (PUCMM) in Dominican Republic.
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -40,7 +40,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Cristian De La Hoz
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Digital Craftsman ( Artist / Developer / Engineer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -94,7 +94,6 @@ const Home = () => (
           </Button>
         </Box>
       </Section>
-
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
           Bio
@@ -105,9 +104,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
+          Completed the Master&apos;s Program in the Graduate School of Information Science at Nara Institute of Science and Technology (奈良先端科学技術大学院大学情報科学研究科修士課程)
         </BioSection>
         <BioSection>
           <BioYear>2010</BioYear>
@@ -142,46 +139,35 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/cristiandelahooz" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @cristiandelahooz
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://twitter.com/cristiandhoz" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @inkdrop_app (English)
+                @cristiandhoz
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @craftzdog (日本語)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://instagram.com/ignxtiuss_" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @craftzdog
+                @ignxtiuss_
               </Button>
             </Link>
           </ListItem>
@@ -189,11 +175,11 @@ const Home = () => (
 
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
           <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
+            href="https://www.youtube.com/@saratrasv5918"
+            title="Wornux"
             thumbnail={thumbYouTube}
           >
-            My YouTube channel (&gt;200k subs)
+            My YouTube channel (&gt;)
           </GridItem>
           <GridItem
             href="https://www.inkdrop.app/"
@@ -205,24 +191,9 @@ const Home = () => (
         </SimpleGrid>
 
         <Heading as="h3" variant="section-title">
-          Newsletter
+          Have a good day!
         </Heading>
-        <p>
-          Join me on a behind-the-scenes coding journey. Weekly updates on
-          projects, tutorials, and videos
-        </p>
 
-        <Box align="center" my={4}>
-          <Button
-            as={NextLink}
-            href="https://www.devas.life/"
-            scroll={false}
-            leftIcon={<EmailIcon />}
-            colorScheme="teal"
-          >
-            Sign up my newsletter here
-          </Button>
-        </Box>
       </Section>
     </Container>
   </Layout>
