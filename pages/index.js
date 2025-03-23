@@ -77,7 +77,7 @@ const Home = () => (
           committed to deepening my expertise in backend development. Currently, I am focused on mastering golang.
           This page is designed to share my progress and contributions with the community as I continue my journey toward becoming a full-stack developer.
           Oh, of course—I use {' '}
-          <Link as={NextLink} href="https://github.com/cristiandelahoz/vim" passHref scroll={false}>
+          <Link as={NextLink} href="https://github.com/cristiandelahoz/init.lua" passHref scroll={false}>
             Neovim,
           </Link>
           {' '} by the way. I probably spend more time tweaking configs than actually coding, but hey, that&apos;s just the Neovim way.
